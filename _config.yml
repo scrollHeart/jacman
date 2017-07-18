@@ -1,8 +1,10 @@
 ##### Menu
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  首页: /
+  归档: /archives
+  分类: /categories
+  标签: /tags
+  关于我: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -12,13 +14,14 @@ menu:
 
 #### Widgets
 widgets: 
-- github-card
+# - github-card
 - category
 - tag
 - links
 - douban
 - rss
-- weibo
+- tagcloud
+# - weibo
   ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
 
 
@@ -44,7 +47,7 @@ highlight_theme: default
 
 #### index post is expanding or not 
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
+  expand: false          ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More  
 
 close_aside: false  #close sidebar in post page if true
@@ -56,18 +59,18 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
-  weibo: 2176287895     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  intro_line1:  "没有梦想就没有未来"    ## your introduction on the bottom of the page
+  intro_line2:  "Without dreams, we have no future."  ## the 2nd line
+  weibo: geekerhua     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email:      ## e.g. imjark@gmail.com
-  twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github:     ## e.g. wuchong for https://github.com/wuchong
-  facebook:   ## e.g. imjark for https://facebook.com/imjark
-  linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  zhihu: hang-zhen-hua-82     ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: geekerhua@sina.com     ## e.g. imjark@gmail.com
+  twitter: GeekerHua   ## e.g. jarkwu for https://twitter.com/jarkwu
+  github: geekerhua    ## e.g. wuchong for https://github.com/wuchong
+  facebook: 100014141115493  ## e.g. imjark for https://facebook.com/imjark
+  linkedin: 振华-杭-35b122126  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
@@ -82,21 +85,22 @@ toc:
 #### Links
 links:
   码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
-  Jark's Blog: http://wuchong.me
+  言十年的博客: http://yanshinian.com,上善若水，水善利萬物而不爭
+  SwiftGG: http://swift.gg,走心的Swift翻译组
+  BB4BB: http://scp.net.cn,西二三旗的垃圾桶
 
 
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: geekerhua    ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 gentie_key:           ## your 163 gentie key, see https://gentie.163.com/
-
 
 #### Share button
 jiathis:
   enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
   id:    ## e.g. 1889330 your jiathis ID. 
-  tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
+  tsina: 5595053039 ## e.g. 2176287895 Your weibo id,It will be used in share button.
 
 #### Analytics
 google_analytics:
@@ -106,11 +110,11 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
-  enable: true
+  enable: false
   sitecode: e6d1f421bbc9962127a50488f9ed37d1 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
-  enable: false
-  siteid:    ## e.g. 1253575964 your cnzz tongji site id
+  enable: true
+  siteid: 1259417518   ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
 ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.

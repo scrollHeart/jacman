@@ -84,6 +84,7 @@ toc:
 
 #### Links
 links:
+  GeekerJun的博客: https://git@github.com:GeekerHua/jacman.git,GeekerJun's Blog
   码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
   言十年的博客: http://yanshinian.com,上善若水，水善利萬物而不爭
   SwiftGG: http://swift.gg,走心的Swift翻译组
@@ -92,9 +93,10 @@ links:
 
 
 #### Comment
-duoshuo_shortname: geekerhua    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 gentie_key:           ## your 163 gentie key, see https://gentie.163.com/
+livere_uid: MTAyMC80MzU5Mi8yMDEzMQ  ## 来必力. see https://www.livere.com/
 
 #### Share button
 jiathis:
@@ -113,7 +115,7 @@ baidu_tongji:
   enable: false
   sitecode: e6d1f421bbc9962127a50488f9ed37d1 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
-  enable: true
+  enable: false
   siteid: 1259417518   ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
@@ -140,3 +142,9 @@ baidu_search:     ## http://zn.baidu.com/
 tinysou_search:     ## http://tinysou.com/
   enable: false
   id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
+
+donate:
+  enable: true
+  text: 看都看完了，支持下啦~
+  wechat: img/wechat.jpg
+  alipay: img/alipay.jpg

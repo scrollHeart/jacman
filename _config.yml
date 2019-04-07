@@ -59,18 +59,18 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "没有梦想就没有未来"    ## your introduction on the bottom of the page
-  intro_line2:  "Without dreams, we have no future."  ## the 2nd line
-  weibo: geekerhua     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier: b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+  intro_line1:  "加油，加油"    ## your introduction on the bottom of the page
+  intro_line2:  "Come On baby Go!!!"  ## the 2nd line
+  weibo: scrollHeart     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo_verifier: ''    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu: hang-zhen-hua-82     ## e.g. jark  for http://www.zhihu.com/people/jark
-  email: geekerhua@sina.com     ## e.g. imjark@gmail.com
-  twitter: GeekerHua   ## e.g. jarkwu for https://twitter.com/jarkwu
-  github: geekerhua    ## e.g. wuchong for https://github.com/wuchong
-  facebook: 100014141115493  ## e.g. imjark for https://facebook.com/imjark
-  linkedin: 振华-杭-35b122126  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  zhihu: ''     ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: xiaoyuner126@126.com     ## e.g. imjark@gmail.com
+  twitter: scrollHeart   ## e.g. jarkwu for https://twitter.com/jarkwu
+  github: scrollHeart    ## e.g. wuchong for https://github.com/wuchong
+  facebook: ''  ## e.g. imjark for https://facebook.com/imjark
+  linkedin: ''  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
@@ -85,6 +85,7 @@ toc:
 #### Links
 links:
   GeekerJun的博客: https://junstat.github.io,GeekerJun's Blog
+  GeekerHua的博客: https://blog.geekerhua.com,geekerhua's Blog
   # 言十年的博客: https://yanshinian.com,上善若水，水善利萬物而不爭
   SwiftGG: https://swift.gg,走心的Swift翻译组
   BB4BB: https://scp.net.cn,西二三旗的垃圾桶
